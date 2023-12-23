@@ -300,6 +300,9 @@ button:hover {
     width: 80%;
     margin: auto;
 }
+.swiper-slide {
+    margin: auto;
+}
 
 .swiper-slide img {
     width: 100%;
