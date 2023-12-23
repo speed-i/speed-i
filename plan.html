@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+    <title>Speed I Investment</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/brand-logo/favicon.ico" />
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="brand-header-1" class="brand-logo-name" class="header-1">
+            <div><a href="index.html"><img class="brand-logo" src="img/brand-logo/favicon.png" alt="logo"></a></div>
+            <div class="brand-name"><b class="brand-text">SPEED I INVESTMENT</b></div>
+        </div>
+
+        <div id="nav-bar" class="header-1">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="bank.html">Bank</a></li>
+                    <li><a href="plan.html">Plan</a></li>
+                    <li><a href="certificate.html">Certificate</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <a class="header-1" style="padding: 0% 15%;">&nbsp</a>
+
+        <div id="brand-header-2" class="brand-logo-name" class="header-2">
+            <div><a href="index.html"><img class="brand-logo" src="img/brand-logo/favicon.png" alt="logo"></a></div>
+            <div class="brand-name"><b class="brand-text">SPEED I INVESTMENT</b></div>
+        </div>
+
+        <!--Burger Menu-->
+        <div id="nav-button">
+            <a href="javascript:void(0);" class="icon header-2" onclick="openNav()">
+                <i class="fa fa-regular fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay-menu">
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="bank.html">Bank</a>
+                <a href="plan.html">Plan</a>
+                <a href="certificate.html">Certificate</a>
+            </div>
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <section>
+        <div class="center-text">
+            <h2>
+                <span>
+                    PLAN
+                </span>
+            </h2>
+        </div>
+
+
+        <img id="img-box" src="img/plan/plan.jpeg">
+
+        <div class="flex-container">
+            <div class="box center-text">
+                ♻️ PLAN RM 240 <br>
+                RM 20 x 70 hari = RM1400
+            </div>
+
+            <div class="box center-text">
+                ♻️ PLAN RM 700 <br>
+                RM 55 x 75 hari = RM4125
+            </div>
+
+            <div class="box center-text">
+                ♻️ PLAN RM 1500 <br>
+                RM 130 x 80 hari = RM10400
+            </div>
+            <div class="box center-text">
+                ♻️ PLAN RM 3000 <br>
+                RM 270 x 85 hari = RM22950
+            </div>
+        </div>
+
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="center-text">
+            <p id="description-copyright-text">
+                Copyright © 2024 speed-i-investment.com - All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+<script src="js/main.js"></script>
+
+<!--Burger Menu-->
+<script>
+    var navButton = document.getElementById("nav-button");
+
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+
+        // Toggle the display property of the navigation menu
+        if (navButton.style.display === "block") {
+            navButton.style.display = "none";
+        } else {
+            navButton.style.display = "block";
+        }
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+
+        // Toggle the display property of the navigation menu
+        if (navButton.style.display === "none") {
+            navButton.style.display = "block";
+        } else {
+            navButton.style.display = "block";
+        }
+    }
+</script>
+
+</html>

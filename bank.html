@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+    <title>Speed I Investment</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/brand-logo/favicon.ico" />
+    <!-- VIEWPORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div id="brand-header-1" class="brand-logo-name" class="header-1">
+            <div><a href="index.html"><img class="brand-logo" src="img/brand-logo/favicon.png" alt="logo"></a></div>
+            <div class="brand-name"><b class="brand-text">SPEED I INVESTMENT</b></div>
+        </div>
+
+        <div id="nav-bar" class="header-1">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="bank.html">Bank</a></li>
+                    <li><a href="plan.html">Plan</a></li>
+                    <li><a href="certificate.html">Certificate</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <a class="header-1" style="padding: 0% 15%;">&nbsp</a>
+
+        <div id="brand-header-2" class="brand-logo-name" class="header-2">
+            <div><a href="index.html"><img class="brand-logo" src="img/brand-logo/favicon.png" alt="logo"></a></div>
+            <div class="brand-name"><b class="brand-text">SPEED I INVESTMENT</b></div>
+        </div>
+
+        <!--Burger Menu-->
+        <div id="nav-button">
+            <a href="javascript:void(0);" class="icon header-2" onclick="openNav()">
+                <i class="fa fa-regular fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay-menu">
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="bank.html">Bank</a>
+                <a href="plan.html">Plan</a>
+                <a href="certificate.html">Certificate</a>
+            </div>
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+    </header>
+
+    <!-- CONTENT -->
+    <section class="balls-container" style="z-index: -1;">
+        <div class="center-text">
+            <h2>
+                <span>
+                    BANK ACCOUNT
+                </span>
+            </h2>
+        </div>
+
+        <div class="center-text">
+            <span class="subtitle" style="text-align: center;">
+                Pemberitahuan Mengenai Nombor Akaun Bank Syarikat
+            </span>
+        </div>
+
+        <div class="image-container">
+            <img id="bank-image-1" src="img/partners-logo/partner-3.jpg">
+        </div>
+
+        <div class="center-text" id="middle-text">
+            Dengan hormat,
+        </div>
+
+        <div class="center-text" id="middle-text">
+            Saya ingin memaklumkan bahawa syarikat kami hanya memiliki satu nombor akaun bank yang sah.
+            Tujuan surat ini adalah untuk memberi maklumat yang jelas kepada semua pihak yang terlibat.
+        </div>
+
+        <div class="center-text" id="middle-text">
+            Nombor Akaun Bank Syarikat:
+        </div>
+
+        <div class="center-text" id="middle-text">
+            <p>
+                CIMB Bank<br>
+                8605758511<br>
+                SPEED II Enterprise
+            </p>
+        </div>
+
+        <div class="center-text" id="middle-text">
+            Sila ambil perhatian bahawa segala transaksi kewangan atau urusan berkaitan pembayaran sepatutnya
+            diuruskan melalui nombor akaun bank yang tersebut di atas. Sebarang pertanyaan atau kekeliruan boleh
+            diajukan kepada jabatan kewangan syarikat kami untuk mendapatkan penjelasan lanjut.
+        </div>
+
+        <div class="center-text" id="middle-text">
+            Kami berharap kerjasama daripada semua pihak agar proses kewangan syarikat dapat berjalan dengan lancar
+            dan efisien. Terima kasih atas perhatian dan kerjasama anda.
+        </div>
+
+        <div class="center-text" id="middle-text">
+            Sekian, terima kasih.
+        </div>
+
+
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="center-text">
+            <p id="description-copyright-text">
+                Copyright © 2024 speed-i-investment.com - All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+<script src="js/main.js"></script>
+<!--<script src="js/balls.js"></script>-->
+
+<!--Burger Menu-->
+<script>
+    var navButton = document.getElementById("nav-button");
+
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+
+        // Toggle the display property of the navigation menu
+        if (navButton.style.display === "block") {
+            navButton.style.display = "none";
+        } else {
+            navButton.style.display = "block";
+        }
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+
+        // Toggle the display property of the navigation menu
+        if (navButton.style.display === "none") {
+            navButton.style.display = "block";
+        } else {
+            navButton.style.display = "block";
+        }
+    }
+</script>
+
+</html>
